@@ -1,0 +1,13 @@
+<application>
+  <component name="ParameterNameHintsSettings">
+    <blacklists>
+      <blacklist language="TypeScript" />
+      <blacklist language="Java">
+        <added pattern="org.springframework.security.config.annotation.web.AbstractRequestMatcherRegistry.antMatchers(antPatterns)" />
+      </blacklist>
+      <blacklist language="JavaScript" />
+      <blacklist language="Groovy" />
+      <blacklist language="Kotlin" />
+    </blacklists>
+  </component>
+</application>
